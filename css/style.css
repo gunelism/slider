@@ -1,0 +1,372 @@
+#head {
+  font-size: 16px; }
+  #head .navbar-default {
+    margin: 0 auto;
+    min-height: 40px;
+    border: 0;
+    border-radius: 0;
+    background-color: #1F2629;
+    color: #9EABB1; }
+  #head li {
+    padding-top: 10px; }
+
+#head2 {
+  min-height: 75px; }
+  #head2 .navbar {
+    margin-bottom: 0px; }
+  #head2 li {
+    padding-top: 20px;
+    display: inline-block;
+    color: #9EABB1;
+    font-size: 14px; }
+    #head2 li a {
+      color: #9EABB1; }
+  #head2 ul:last-child li {
+    margin-left: 40px;
+    padding-top: 30px; }
+
+#image {
+  min-height: 750px;
+  color: #ffffff; }
+  #image h1 {
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 10px; }
+  #image p {
+    padding-top: 290px;
+    font-size: 24px; }
+  #image #btn1 {
+    margin-top: 25px;
+    background-color: #29c2e1;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 140px;
+    height: 60px; }
+  #image #newsletter {
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 160px;
+    min-height: 90px;
+    background-color: #404143;
+    padding-top: 20px; }
+    #image #newsletter h1 {
+      padding-top: 0;
+      font-size: 22px;
+      color: #ffffff; }
+    #image #newsletter #signup {
+      background-color: #f7941d;
+      padding: 0px;
+      border-radius: 0px; }
+    #image #newsletter input {
+      font-size: 15px; }
+    #image #newsletter #subscribe {
+      width: 100%;
+      background-color: #f7941d;
+      font-size: 15px; }
+    #image #newsletter .col-md-7 {
+      padding-right: 0px;
+      padding-left: 5px; }
+    #image #newsletter .col-md-5 {
+      padding-right: 20px; }
+
+#weAre {
+  padding: 100px 0;
+  position: relative;
+  width: 100%; }
+  #weAre .text-center #what {
+    background-color: #f7941d;
+    padding: 0px;
+    border-radius: 0px;
+    color: white;
+    padding: 0 5px; }
+  #weAre .text-center h1 {
+    font-size: 25px;
+    font-weight: 600; }
+  #weAre #dark {
+    position: absolute;
+    top: -145px;
+    left: 90px;
+    z-index: 70;
+    width: 90px;
+    height: 300px;
+    background-color: #67747a; }
+  #weAre #norm {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 50;
+    background-color: #8d8d8d;
+    height: 308px;
+    width: 80%; }
+  #weAre #light {
+    position: absolute;
+    top: 80px;
+    z-index: 10;
+    background-color: #e5eef0;
+    height: 235px;
+    width: 90%; }
+  #weAre p {
+    padding-top: 15%;
+    line-height: 1.5em;
+    color: #55595f; }
+  #weAre .col-md-6 {
+    height: 350px; }
+    #weAre .col-md-6 button {
+      padding: 10px;
+      margin-top: 10%;
+      border: 0;
+      background-color: #f7941d; }
+
+#features {
+  background-color: #e5eef0;
+  padding: 100px 0; }
+  #features #our {
+    background-color: #f7941d;
+    padding: 0px;
+    border-radius: 0px;
+    color: white;
+    padding: 0 5px; }
+  #features h1 {
+    font-size: 30px;
+    font-weight: 700; }
+  #features .media {
+    margin-top: 60px; }
+    #features .media h4 {
+      font-size: 20px; }
+    #features .media p {
+      padding-top: 15px;
+      font-size: 14px;
+      color: #55595f;
+      line-height: 2em; }
+    #features .media img {
+      background: #e5eef0;
+      width: 67px;
+      height: 67px;
+      padding: 15px 19px;
+      border: 1px solid black; }
+    #features .media .kub {
+      background: #29c2e1;
+      border: 0; }
+    #features .media .media-body {
+      padding-left: 30px; }
+
+#clients {
+  width: 100%;
+  background-color: #f7941d;
+  padding: 100px 0; }
+  #clients h1 {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 700; }
+  #clients #happy {
+    background-color: black;
+    padding: 0px;
+    border-radius: 0px;
+    color: white;
+    padding: 0 5px; }
+  #clients #client i {
+    margin-top: 20px;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 100%; }
+  #clients p {
+    margin-top: 20px; }
+  #clients #text {
+    position: relative;
+    color: black;
+    line-height: 2em; }
+  #clients .row .col-md-2:last-child {
+    height: 150px; }
+  #clients .row .col-md-1:last-child {
+    height: 150px; }
+  #clients .row i:last-child {
+    position: absolute;
+    bottom: 0; }
+  #clients #hexagon {
+    /*margin-top: 3px;*/
+    /*padding-left: 3.2%;*/
+    margin-left: 2.5%;
+    width: 100px;
+    height: 55px;
+    background: #8d8d8d;
+    position: relative;
+    float: left; }
+  #clients #hexagon:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #8d8d8d; }
+  #clients #hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #8d8d8d; }
+  #clients #top {
+    margin: 100px;
+    padding-left: 7%; }
+    #clients #top #bottomm {
+      margin-top: 35px;
+      padding-left: 75px; }
+
+#pricing {
+  min-height: 715px; }
+  #pricing h1 {
+    padding-top: 90px;
+    font-size: 30px;
+    font-weight: 700; }
+  #pricing p {
+    padding-top: 5px; }
+  #pricing button {
+    margin-top: 70px;
+    background-color: #29c2e1;
+    border: 0;
+    border-radius: 20px;
+    font-size: 13px;
+    width: 150px;
+    height: 40px; }
+  #pricing #ilk, #pricing #iki, #pricing #uc, #pricing #dord {
+    width: 260px;
+    border: 1px solid #F1F1F1;
+    height: 420px;
+    margin-top: 45px;
+    padding: 0; }
+    #pricing #ilk h3, #pricing #iki h3, #pricing #uc h3, #pricing #dord h3 {
+      font-size: 20px;
+      font-weight: 500; }
+    #pricing #ilk h4, #pricing #iki h4, #pricing #uc h4, #pricing #dord h4 {
+      font-size: 18px; }
+  #pricing #first {
+    height: 65px;
+    padding-top: 30px;
+    border-bottom: 1px solid #F1F1F1; }
+  #pricing #second {
+    color: #55595f;
+    height: 60px;
+    padding: 20px;
+    border-bottom: 1px solid #F1F1F1; }
+  #pricing #third {
+    height: 300px;
+    padding: 20px 0; }
+    #pricing #third ul li {
+      list-style: none;
+      line-height: 2.5em; }
+  #pricing #iki {
+    box-shadow: 0px 0px 127px -30px #666166; }
+
+#team {
+  min-height: 660px;
+  background-color: #e5eef0; }
+  #team h1 {
+    padding-top: 90px;
+    font-size: 30px;
+    font-weight: 700; }
+  #team p {
+    padding-top: 5px; }
+  #team #top {
+    margin-top: 40px;
+    padding: 0;
+    width: 263px;
+    height: 399px; }
+    #team #top #color {
+      width: 263px;
+      height: 276px;
+      background-color: #8d8d8d; }
+    #team #top #bott {
+      background-color: white;
+      width: 263px;
+      height: 123px;
+      padding: 30px; }
+      #team #top #bott h4, #team #top #bott p {
+        font-size: 14px; }
+      #team #top #bott p {
+        color: #f7941d; }
+      #team #top #bott i {
+        padding-right: 10px;
+        padding-top: 10px;
+        color: #9EABB1;
+        font-size: 15px; }
+
+#last {
+  padding: 100px 0;
+  border-bottom: 1px solid lightgrey; }
+  #last h1 {
+    font-size: 30px;
+    font-weight: 500; }
+  #last p {
+    padding-top: 15px; }
+  #last button {
+    margin-top: 35px;
+    background-color: #29c2e1;
+    border: 0;
+    border-radius: 20px;
+    font-size: 13px;
+    width: 150px;
+    height: 40px; }
+    #last button:last-child {
+      background-color: #f7941d; }
+
+#footer {
+  letter-spacing: 1px;
+  position: relative;
+  padding: 75px 0 80px 0;
+  border-bottom: 1px solid lightgrey; }
+  #footer h1 {
+    font-size: 18px; }
+  #footer li {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #8d8d8d;
+    padding-top: 30px; }
+  #footer i {
+    padding-right: 10px; }
+  #footer #service {
+    padding-top: 20px; }
+  #footer input {
+    height: 50px; }
+  #footer button {
+    background-color: #29c2e1;
+    border-radius: 0;
+    height: 50px;
+    color: white; }
+  #footer #orange {
+    width: 0px;
+    height: 0px;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid #f69b37;
+    border-left: 220px solid #f69b37;
+    border-right: 220px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+#copyRight {
+  position: relative; }
+  #copyRight .container p {
+    color: #8d8d8d;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 45px; }
+  #copyRight #blue {
+    width: 0px;
+    height: 0px;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid #29c2e1;
+    border-left: 220px solid transparent;
+    border-right: 220px solid #29c2e1;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
+/*# sourceMappingURL=style.css.map */
